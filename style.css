@@ -101,11 +101,11 @@ hr{
 
 .bottom-container{
     background-color: #193498;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px
     color: seashell;
-    margin: 0px auto 0px auto
 }
 
 .btn {
