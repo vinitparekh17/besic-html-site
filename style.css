@@ -24,6 +24,9 @@ h3{
 .circuler{
     border-radius: 180px;
     margin-top: 80px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border: 3px solid black;
+
 }
 hr{
     border-style: dotted;
@@ -59,18 +62,21 @@ hr{
     float: left;
     border-radius: 180px;
     margin-right: 20px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .clogo{
     width: 20%;
     float: right;
     border-radius: 180px;
     margin-right: 20px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .js{
     width: 20%;
     float: left;
     border-radius: 180px;
     margin-right: 20px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .skill-row{
     margin: 100px auto 100px auto;
