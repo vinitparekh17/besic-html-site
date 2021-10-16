@@ -100,7 +100,8 @@ hr{
 }
 
 .bottom-container{
-    background-color: #193498;
+    margin: 20%;
+    background-color: #3C8FFF;
     position: fixed; 
     padding: 10px 10px 0px 10px; 
     bottom: 0; 
