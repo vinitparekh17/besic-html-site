@@ -99,14 +99,11 @@ hr{
     width: 60%;
 }
 
-.bottom-container{
-    margin: 20%;
-    background-color: #3C8FFF;
-    position: fixed; 
-    padding: 10px 10px 0px 10px; 
-    bottom: 0; 
-    width: 100%; 
-    height: 40px;
+.bottom-container{    
+    background-color: #193498;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2;
     color: seashell;
 }
 
