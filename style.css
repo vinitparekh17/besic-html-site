@@ -18,11 +18,13 @@ h1{
 h2{
     color: #284E78;
     font-family: 'Courgette', cursive;
+    margin-bottom: 20%;
 }
 
 h3{
     color: #284E78;
     font-family: 'Courgette', cursive;
+    margin-bottom: 20%;
 }
 
 .dev{
@@ -154,9 +156,5 @@ hr{
 
   a:hover{
       color: #D2F5E3;
-  }
-
-  p{
-     margin-top: 30%;
   }
 
