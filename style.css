@@ -34,7 +34,7 @@ h3{
 .circuler{
     border-radius: 180px;
     margin-top: 80px;
-    margin-bottom: 20px
+    margin-bottom: 30px;
     box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     border: 3px solid black;
 }
