@@ -61,6 +61,7 @@ hr{
 }
 
 .cloud{
+    margin: 20px
     width: 120px;
     opacity: 45%;
     position: relative;
