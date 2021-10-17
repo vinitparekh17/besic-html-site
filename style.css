@@ -162,5 +162,8 @@ hr{
   a:hover{
       color: #D2F5E3;
   }
-
+ 
+  p{
+      font-size: 10%;
+  }
 
