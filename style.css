@@ -53,11 +53,11 @@ hr{
 }
 
 .bg-img{
-    width: 100%;
-    height: 34%;
+    opacity: 45%;
+    max-width: 100%;
+    height: auto;
     margin-left: 0px;
     margin-right: 0px;
-    opacity: 65%;
 }
 
 .cloud{
