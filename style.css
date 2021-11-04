@@ -175,7 +175,8 @@ hr{
  
   p{
       font-size: 18px;
-     -webkit-line-clamp: 3;
+      width: 60%;
+      text-align: center;
   }
 
   h3{
