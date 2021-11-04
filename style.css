@@ -180,3 +180,7 @@ hr{
   h3{
       font-size: 30px;
   }
+
+ .outer{
+      width: 60%;
+  }
