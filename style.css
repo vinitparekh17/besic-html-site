@@ -17,6 +17,15 @@ body{
     font-family: 'Electrolize', sans-serif;
 }
 
+#navimg{
+    position: relative;
+    border-radius: 180%;
+}
+
+.navname{
+    margin-left: 10px;
+}
+
 h1{
     color: #284E78;
     margin-bottom: 5px;
@@ -49,7 +58,8 @@ h3{
 }
 
 .circuler:hover{
-    width: 40%;
+    width: 25%;
+    border-radius: 240%;
 }
 
 hr{
@@ -119,13 +129,23 @@ hr{
 .bottom-container{    
     background-color: #193498;
     padding-top: 5px;
-    padding-bottom: 5px;
     line-height: 2;
     color: #00FFAB;
+    height: 60px;
+    margin-bottom: 0;
 }
 
-.btn {
-    width: 3%;
+#copy{
+    padding: 0;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+/* 
+.contectme {
+    width: 25px;
     background: #34d9d3;
     background-image: -webkit-linear-gradient(top, #34d9d3, #06507d);
     background-image: -moz-linear-gradient(top, #34d9d3, #06507d);
@@ -137,12 +157,12 @@ hr{
     border-radius: 20px;
     font-family: Arial;
     color: #ffffff;
-    font-size: auto;
+    font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
   
-  .btn:hover {
+  .contectme:hover {
     background: #00ff00;
     background-image: -webkit-linear-gradient(top, #00ff00, #046320);
     background-image: -moz-linear-gradient(top, #00ff00, #046320);
@@ -150,38 +170,55 @@ hr{
     background-image: -o-linear-gradient(top, #00ff00, #046320);
     background-image: linear-gradient(to bottom, #00ff00, #046320);
     text-decoration: none;
-  }
+  } */
 
   .contact-me{
       margin: 10px auto 40px auto;
   }
   
-  .copyright{
+  .copy{
       font-size: 10px;
   }
 
-  .bt{
+  .btnn{
       margin-bottom: 40px;
   }
 
-  a{
+  .hov{
       text-decoration: none;
       color: #C0FFFB;
   }
 
-  a:hover{
+  .hov:hover{
       color: #D2F5E3;
   }
  
   p{
       font-size: 18px;
+      -webkit-line-clamp: 3;
   }
 
   h3{
       font-size: 30px;
   }
 
- .outer{
-      width: 60%;
-      margin-left: 21%;
+  .form-select{
+      border: none;
+      color: #284E78;
+      font-family: 'Electrolize', sans-serif;
+      width: 80%;
+      margin-left: 10%;
+  }
+
+  .navbar{
+      background-color: #193498;
+      position: relative;
+  }
+
+  .nav-link{
+      color: #C0FFFB;
+  }
+
+  .specing{
+      margin-left: 19px;
   }
