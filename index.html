@@ -2,20 +2,30 @@
 
 <head>
   <title>code-x</title>
-  <link rel="stylesheet" href="/style.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/v.gif" alt="devloper_img" width="30" height="24" class="d-inline-block align-text-top">
+        Vinit Parekh
+      </a>
+    </div>
+  </nav>
   <div>
     <img class="cloud" src="./assets/clipart92207.png" alt="cloud_img">
     <div class="top">
@@ -26,13 +36,12 @@
     <img class="bg-img" src="./assets/nature-yuh.webp" alt="sun-set">
     </h1>
     <div class="second">
-      <img class="circuler" src="/assets/v.gif" width="180p" alt="devloper_img">
+      <img class="circuler" src="./assets/v.gif" width="180p" alt="devloper_img">
     </div>
     <div class="middle-container">
       <div class="profile">
-        <img src="" alt="">
-        <h2 class="hel">Hello.</h2>
-        <p class="outer">I am Vinit Parekh from Surat, Gujarat. Currently studing in BCA 1<sup>st</sup> year. I love Cold Coco.</p>
+        <h2>Hello.</h2>
+        <p>I am Vinit Parekh from Surat, Gujarat. Currently studing in BCA 1<sup>st</sup> year. I love Cold Coco.</p>
       </div>
       <hr>
       <div class="skills">
@@ -55,24 +64,35 @@
         </div>
       </div>
       <hr>
+      <div class="explore">
+        <h3>Explore more Websites</h3>
+      <select class="form-select" id="menu" onchange="change(this.value)" aria-label="Default select example">
+        <option selected> None</option>
+        <option value="1">Dice game</option>
+        <option value="2">Drump kit</option>
+        <option value="3">Digital clock</option>
+      </select>
+      </div>
+      <hr>
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>Hope you liked by Website</h3>
-        <p class="outer">Did you liked my Website? Are you intrested in <strong>Full Stack Web-devlopment</strong> as much as I do? Let's talk about how awesome it is. Let's code together and share our knowlage together! <i class="bi bi-linkedin"></i> <i class="bi bi-globe"></i> <i class="bi bi-instagram"> </i></p>
+        <p>Did you liked my Website? Are you intrested in <strong> Full Stack Web-devlopment </strong> as much as I do? Let's talk about how awesome it is. Let's code together and share our knowlage together!</p>
       </div>
-      <div class="bt">
-        <a class="btn" href="mailto: vinitparekh1742@gmail.com">CONTACT ME</a>
+      <div class="btnn">
+        <button type="button" class="btn btn-success"><a class="contectme" href="mailto:vinitparekh1742@email.com">CONTACT ME</a></button>
+        
       </div>
     </div>
 
 
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/vinit-soni-475154221"> LinkedIn </a> •
-      <a class="footer-link" href="https://instagram.com/mr.parekh_17?utm_medium=copy_link"> Instagram </a> •
-      <a class="footer-link" href="https://github.com/vinitsoni17"> GitHub </a>
-      <p class="copyright">© 2021 Vinit Parekh.</p>
+      <a class="footer-link" href="https://www.linkedin.com/in/vinit-soni-475154221">LinkedIn</a> •
+      <a class="footer-link" href="https://instagram.com/mr.parekh_17?utm_medium=copy_link">Instagram</a> •
+      <a class="footer-link" href="https://code-x-devlopment.netlify.app/">Website</a>
+      <p>© 2021 Vinit Parekh.</p>
     </div>
-
+<script src="./index.js"></script>
 </body>
 
 </html>
