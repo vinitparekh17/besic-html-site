@@ -4,9 +4,9 @@ var result1 = arr[Math.floor(Math.random() * 6)]
 
 var result2 = arr[Math.floor(Math.random() * 6)]
 
-document.querySelectorAll("img")[0].setAttribute("src", result1)
+document.querySelectorAll("img")[1].setAttribute("src", result1)
 
-document.querySelectorAll("img")[1].setAttribute("src", result2)
+document.querySelectorAll("img")[2].setAttribute("src", result2)
 
 var won = null
 
