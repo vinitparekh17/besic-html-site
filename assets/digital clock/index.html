@@ -10,6 +10,45 @@
     <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="./assets/vinitpro.jfif" id="navimg" alt="dev.png" width="40" height="34" class="d-inline-block align-text-top">
+      <a class="navbar-brand hov navname" href="#">Mr. Parekh</a>
+      <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:vinitparekh1742@gmail.com">Contact Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More websites
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./assets/dicegame/index.html">Dice game</a></li>
+              <li><a class="dropdown-item" href="./assets/digital clock/index.html">Digital clock</a></li>
+              <!-- <li>
+                <hr class="dropdown-divider">
+              </li> -->
+              <li><a class="dropdown-item" href="./assets/drump/index.html">Drump kit</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--
+        <form class="d-flex">
+          <input class="form-control me-2" id="navb" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
     <script src="./clock.js"> </script>
     <!-- <div id="MyClockDisplay" class="clock" onload="showTime()"></div> -->
 </body>
