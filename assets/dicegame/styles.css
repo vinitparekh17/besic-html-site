@@ -71,3 +71,12 @@ footer {
   margin-top: 10px;
   margin-left: 47%;
 }
+
+#navimg{
+    position: relative;
+    border-radius: 180%;
+}
+
+.navbar{
+    position: relative;
+}
