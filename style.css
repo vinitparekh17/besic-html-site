@@ -50,6 +50,7 @@ h3{
 }
 
 .circuler{
+    width: 25%
     border-radius: 180px;
     margin-top: 80px;
     margin-bottom: 30px;
@@ -58,7 +59,7 @@ h3{
 }
 
 .circuler:hover{
-    width: 25%;
+    width: 35%;
     border-radius: 240%;
 }
 
