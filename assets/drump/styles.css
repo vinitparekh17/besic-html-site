@@ -14,7 +14,6 @@ h1 {
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
-  text-align: center;
 }
 
 .w {
@@ -80,3 +79,23 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+
+.navbar{
+  background-color: #193498;
+  position: relative;
+}
+
+.nav-link{
+  color: #C0FFFB;
+}
+
+#navimg{
+position: relative;
+border-radius: 180%;
+}
+
+.navname{
+  margin-left: 10px;
+}
+

@@ -2,9 +2,6 @@
   width: 70%;
   margin: auto;
   text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%
 }
 
 .dice {
@@ -13,7 +10,7 @@
 
 }
 
-body {
+.body{
   background-color: #393E46;
 }
 
@@ -31,13 +28,13 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-.gi {
+.img1 img2 {
   width: 80%;
 }
 
-#footer {
+footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #cfa7a7;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
@@ -75,11 +72,21 @@ p {
   margin-left: 47%;
 }
 
-#navimg{
-    position: relative;
-    border-radius: 180%;
-}
 
 .navbar{
-    position: relative;
+  background-color: #193498;
+  position: relative;
+}
+
+.nav-link{
+  color: #C0FFFB;
+}
+
+#navimg{
+position: relative;
+border-radius: 180%;
+}
+
+.navname{
+  margin-left: 10px;
 }
