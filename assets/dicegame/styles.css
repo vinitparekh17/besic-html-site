@@ -1,4 +1,6 @@
 .container {
+  position: relative;
+  top: 80px;
   width: 70%;
   margin: auto;
   text-align: center;
